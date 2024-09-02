@@ -44,8 +44,13 @@ function fizzBuzzGeneratorArray(elements){
    
 }
 
-list=fizzBuzzGeneratorArray(15)
+//list=fizzBuzzGeneratorArray(15)
 //console.log(list)
-list.forEach(element => {
-    console.log(element)
-});
+// list.forEach(element => {
+//     console.log(element)
+// });
+
+module.exports={
+    fizzBuzzGenerator,
+    fizzBuzzGeneratorArray
+}
