@@ -45,7 +45,7 @@ function fizzBuzzGeneratorArray(elements){
 }
 
 list=fizzBuzzGeneratorArray(15)
-console.log(list)
+//console.log(list)
 list.forEach(element => {
     console.log(element)
 });
